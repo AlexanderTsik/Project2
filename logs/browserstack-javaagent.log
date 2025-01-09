@@ -1,0 +1,12 @@
+01:44:08.897 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+01:44:08.901 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+01:44:09.141 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+01:44:09.141 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\browserstack.yml
+01:44:09.204 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:44:09.780 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to selenide-testng
+01:44:13.647 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is selenide-testng. We currently support frameworks testng, cucumber-testng & serenity
+01:44:14.332 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:44:18.416 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:44:33.771 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:47:31.370 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/75af7b8e3ad4c3ad16b16cf29de13f4bf58d568c
+01:47:31.370 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

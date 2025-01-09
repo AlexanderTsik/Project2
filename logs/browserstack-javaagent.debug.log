@@ -1,0 +1,875 @@
+01:44:09.141 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+01:44:09.509 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+01:44:09.509 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+01:44:09.744 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket60136 @w@C:\Users\aleko\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\aleko\AppData\Local\Temp\idea_testng.tmp
+01:44:09.748 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+01:44:09.755 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+01:44:09.780 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: selenide from dependencies
+01:44:09.780 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: selenide-testng
+01:44:09.780 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.29.3
+01:44:09.783 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+01:44:09.783 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+01:44:09.783 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+01:44:09.783 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+01:44:10.930 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+01:44:11.438 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 507ms
+01:44:12.445 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 1005ms
+01:44:13.604 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 1157ms
+01:44:13.606 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+01:44:13.664 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+01:44:13.665 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"sjdaPCd9JH3MyuAzJ6ed","userName":"aleksandretsikla_MaPqRk","event_properties":{"product":"[automate]","buildName":"bstack-demo","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":5,"parseDependencies":25},"language":"java","sdkRunId":"59fc6399-6eb1-4dfe-b13e-436c85684d73","buildIdentifier":"1","userFramework":"selenide-testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"selenide, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"referrer":"selenide-testng-javaagent\/1.29.3","hostname":"DESKTOP-H123LTK","language_framework":"java_selenide-testng","detectedFramework":"selenide-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+01:44:14.332 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+01:44:17.833 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:17.833 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+01:44:17.833 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1304
+01:44:17.833 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 1304
+01:44:18.411 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+01:44:18.411 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+01:44:18.413 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp
+01:44:18.416 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+01:44:18.418 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 10_Jan_144_DESKTOP_H123LTK_OgVG
+01:44:33.772 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:35.903 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+01:44:36.380 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-09T21:44:36.379423800Z][ OBSERVABILITY ] Processing Logs patching stream
+01:44:36.390 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:43.188 [numberOfGuestsTest@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:44:43.192 [numberOfGuestsTest@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 51
+01:44:43.195 [numberOfGuestsTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:43.201 [numberOfGuestsTest@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:44:43.553 [numberOfGuestsTest@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:44:43.554 [numberOfGuestsTest@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 53
+01:44:43.556 [numberOfGuestsTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:43.562 [numberOfGuestsTest@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:44:43.720 [numberOfGuestsTest@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:44:43.721 [numberOfGuestsTest@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 52
+01:44:43.721 [numberOfGuestsTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:43.723 [numberOfGuestsTest@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:44:49.557 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+01:44:49.557 [numberOfGuestsTest@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:44:49.559 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:44:49.559 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:44:49.560 [numberOfGuestsTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:49.612 [Forwarding setTimeout on session 2770cc266441caf9c4913007201cc06d3f8cac9d to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:1006)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.setLoadTimeout(WebDriverFactory.java:85)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:64)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:68)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:101)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:44)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:181)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:177)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:164)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:130)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:99)
+	at com.codeborne.selenide.StaticDriver.getAndCheckWebDriver(StaticDriver.java:41)
+	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:183)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:67)
+	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:94)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:93)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:65)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:29)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:50)
+	at ge.tbc.testautomation.steps.swoop.FoodSteps.navigateToFood(FoodSteps.java:22)
+	at ge.tbc.testautomation.swoop.OfferTests.numberOfGuestsTest(OfferTests.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+01:44:55.764 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+01:44:55.764 [numberOfGuestsTest@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:44:55.764 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:44:55.764 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:44:55.764 [numberOfGuestsTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:55.770 [Forwarding setTimeout on session 3bd98dadae3583b8eb0f908ef56409e5d8aed5a0 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:1006)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.setLoadTimeout(WebDriverFactory.java:85)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:64)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:68)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:101)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:44)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:181)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:177)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:164)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:130)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:99)
+	at com.codeborne.selenide.StaticDriver.getAndCheckWebDriver(StaticDriver.java:41)
+	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:183)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:67)
+	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:94)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:93)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:65)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:29)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:50)
+	at ge.tbc.testautomation.steps.swoop.FoodSteps.navigateToFood(FoodSteps.java:22)
+	at ge.tbc.testautomation.swoop.OfferTests.numberOfGuestsTest(OfferTests.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+01:44:59.680 [numberOfGuestsTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:59.682 [numberOfGuestsTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:44:59.682 [numberOfGuestsTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:44:59.791 [numberOfGuestsTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:44:59.791 [numberOfGuestsTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:44:59.806 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:44:59.806 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:44:59.806 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:44:59.806 [numberOfGuestsTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:44:59.821 [numberOfGuestsTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:59.903 [numberOfGuestsTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:44:59.903 [numberOfGuestsTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:02.300 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+01:45:02.300 [numberOfGuestsTest@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:45:02.300 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:02.300 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:02.301 [numberOfGuestsTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:02.306 [Forwarding setCurrentWindowSize on session 236c961e83805f8e8571fdddea87d08ce0e42530 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.setSize(RemoteWebDriver.java:1039)
+	at com.codeborne.selenide.webdriver.BrowserResizer.adjustBrowserSize(BrowserResizer.java:43)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:61)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:68)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:101)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:44)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:181)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:177)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:164)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:130)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:99)
+	at com.codeborne.selenide.StaticDriver.getAndCheckWebDriver(StaticDriver.java:41)
+	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:183)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:67)
+	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:94)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:93)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:65)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:29)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:50)
+	at ge.tbc.testautomation.steps.swoop.FoodSteps.navigateToFood(FoodSteps.java:22)
+	at ge.tbc.testautomation.swoop.OfferTests.numberOfGuestsTest(OfferTests.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+01:45:07.056 [numberOfGuestsTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:07.056 [numberOfGuestsTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:07.057 [numberOfGuestsTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:07.106 [numberOfGuestsTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:07.106 [numberOfGuestsTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:07.110 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:07.110 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:07.110 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:07.110 [numberOfGuestsTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:07.117 [numberOfGuestsTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:07.598 [numberOfGuestsTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:07.598 [numberOfGuestsTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:14.796 [offerLocationTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:14.797 [offerLocationTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:14.797 [offerLocationTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:14.848 [offerLocationTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:14.848 [offerLocationTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:14.851 [offerLocationTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:14.852 [offerLocationTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:14.852 [offerLocationTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:14.852 [offerLocationTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:14.864 [offerLocationTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:14.945 [offerLocationTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:14.946 [offerLocationTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:18.460 [numberOfGuestsTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:18.461 [numberOfGuestsTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:18.461 [numberOfGuestsTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:18.507 [numberOfGuestsTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:18.507 [numberOfGuestsTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:18.512 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:18.512 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:18.512 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:18.512 [numberOfGuestsTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:18.519 [numberOfGuestsTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:18.607 [numberOfGuestsTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:18.608 [numberOfGuestsTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:22.476 [offerLocationTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:22.477 [offerLocationTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:22.477 [offerLocationTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:22.545 [offerLocationTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:22.545 [offerLocationTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:22.548 [offerLocationTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:22.549 [offerLocationTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:22.549 [offerLocationTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:22.549 [offerLocationTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:22.557 [offerLocationTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:22.661 [offerLocationTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:22.661 [offerLocationTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:28.719 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:28.719 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:28.719 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:28.774 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:28.774 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:28.781 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:28.781 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:28.781 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:28.781 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:28.788 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:28.870 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:28.871 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.080 [offerLocationTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.080 [offerLocationTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:35.081 [offerLocationTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:35.125 [offerLocationTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:35.125 [offerLocationTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:35.128 [offerLocationTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:35.128 [offerLocationTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:35.128 [offerLocationTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:35.128 [offerLocationTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:35.136 [offerLocationTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.213 [offerLocationTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.213 [offerLocationTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.628 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.629 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:35.629 [searchTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:35.677 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:35.677 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:35.683 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:35.683 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:35.683 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:35.683 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:35.690 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.771 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:35.773 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:41.239 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:41.239 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:41.239 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:41.287 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:41.287 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:41.292 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:41.292 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:41.292 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:41.293 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:41.299 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:41.380 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:41.381 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:47.069 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:47.070 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:47.070 [searchTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:47.117 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:47.117 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:47.122 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:47.122 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:47.122 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:47.122 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:47.129 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:47.213 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:47.214 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:51.084 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:51.085 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:51.085 [searchTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:51.132 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:51.132 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:51.138 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:51.138 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:51.138 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:51.138 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:51.144 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:51.276 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:51.278 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:58.338 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:58.339 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:45:58.339 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:45:58.408 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:45:58.408 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:45:58.414 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:58.414 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:58.414 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:45:58.414 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:45:58.420 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:58.499 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:45:58.500 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:00.655 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:00.656 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:00.656 [searchTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:00.710 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:00.710 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:00.716 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:00.716 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:00.716 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:00.716 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:00.722 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:00.799 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:00.801 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:03.651 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:03.651 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:03.651 [searchTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:03.797 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:03.797 [searchTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:03.810 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:03.811 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:03.811 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:03.811 [searchTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:03.822 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:03.902 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:03.903 [searchTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:16.954 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:16.954 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:16.955 [searchTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:17.057 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:17.058 [searchTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:17.072 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:17.072 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:17.072 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:17.072 [searchTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:17.092 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:17.170 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:17.171 [searchTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:20.670 [validateLanguageChangeTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:20.671 [validateLanguageChangeTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:20.671 [validateLanguageChangeTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:20.776 [validateLanguageChangeTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:20.776 [validateLanguageChangeTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:20.780 [validateLanguageChangeTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:20.780 [validateLanguageChangeTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:20.780 [validateLanguageChangeTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:20.780 [validateLanguageChangeTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:20.795 [validateLanguageChangeTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:20.877 [validateLanguageChangeTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:20.877 [validateLanguageChangeTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:24.274 [validateLanguageChangeTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:24.274 [validateLanguageChangeTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:24.274 [validateLanguageChangeTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:24.322 [validateLanguageChangeTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:24.322 [validateLanguageChangeTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:24.326 [validateLanguageChangeTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:24.326 [validateLanguageChangeTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:24.326 [validateLanguageChangeTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:24.326 [validateLanguageChangeTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:24.332 [validateLanguageChangeTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:24.414 [validateLanguageChangeTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:24.415 [validateLanguageChangeTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:33.147 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:33.147 [validateUniqueOffersAcrossPages@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:33.147 [validateUniqueOffersAcrossPages@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:33.195 [validateUniqueOffersAcrossPages@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:33.195 [validateUniqueOffersAcrossPages@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:33.198 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:33.198 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:33.198 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:33.198 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:33.204 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:33.285 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:33.286 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:33.294 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+01:46:33.295 [validateUniqueOffersAcrossPages@0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+01:46:33.318 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"sjdaPCd9JH3MyuAzJ6ed","userName":"aleksandretsikla_MaPqRk","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"59fc6399-6eb1-4dfe-b13e-436c85684d73","buildIdentifier":"1","error":"[{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"120.0\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Edge\",\"browserVersion\":\"latest\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-offerLocationTest\":\"Invalid element state [a[href='\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/']]: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\\r Screenshot: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.png\\r Page source: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.html\\r Timeout: 4 s.\\r Caused by: ElementNotInteractableException: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Firefox\",\"browserVersion\":\"latest\"}]","testhub_uuid":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"DESKTOP-H123LTK","measures":{"sdk:testhub":3486.814499974251,"sdk:automate:hub-management":3794.6639000177383,"sdk:driver:pre-initialization":1.74,"sdk:setup":25045.43230009079,"sdk:pre-test":9.099200963973999,"sdk:o11y:sync":107.39,"sdk:driver:post-initialization":0.79,"sdk:automate:session-annotation":104.19,"sdk:hook":2.3},"productUsage":{"testObservability":{"buildHashedId":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"10_Jan_144_DESKTOP_H123LTK_OgVG","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"browserVersion":"120.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"osVersion":"10","browser":"Chrome","os":"Windows","device":null,"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Edge"},"osVersion":"11","browser":"Edge","os":"Windows","device":null,"platformString":"Windows, 11, Edge, latest","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Firefox"},"osVersion":"11","browser":"Firefox","os":"Windows","device":null,"platformString":"Windows, 11, Firefox, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"selenide-testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"bstack-demo","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":5,"ret-org.openqa.selenium.remote.RemoteWebDriver":1212,"retransformClasses":1212,"parseDependencies":25},"userFramework":"selenide-testng","detectedDependencies":"selenide, testng","referrer":"selenide-testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_selenide-testng","detectedFramework":"selenide-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+01:46:34.192 [validateUniqueOffersAcrossPages@0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+01:46:34.468 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:34.791 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:34.868 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:34.869 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:34.869 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:34.922 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:34.922 [validateUniqueOffersAcrossPages@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:34.922 [validateUniqueOffersAcrossPages@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:34.969 [validateUniqueOffersAcrossPages@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:34.969 [validateUniqueOffersAcrossPages@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:34.971 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:34.971 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:34.971 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:34.971 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:34.978 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.057 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.058 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.339 [validateLanguageChangeTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.339 [validateLanguageChangeTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:35.339 [validateLanguageChangeTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:35.386 [validateLanguageChangeTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:35.386 [validateLanguageChangeTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:35.389 [validateLanguageChangeTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:35.389 [validateLanguageChangeTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:35.389 [validateLanguageChangeTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:35.389 [validateLanguageChangeTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:35.397 [validateLanguageChangeTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.474 [validateLanguageChangeTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.475 [validateLanguageChangeTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.931 [validateUniqueOffersAcrossPages@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.951 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.952 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.952 [bannedUserLoginTest@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+01:46:35.952 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:35.953 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.287 [bannedUserLoginTest@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:46:36.288 [bannedUserLoginTest@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 51
+01:46:36.288 [bannedUserLoginTest@0] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@68d678f
+01:46:36.288 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.289 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.289 [bannedUserLoginTest@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+01:46:36.289 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.289 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.290 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.290 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:36.291 [bannedUserLoginTest@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:46:39.316 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+01:46:39.316 [validateUniqueOffersAcrossPages@1] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+01:46:39.322 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"sjdaPCd9JH3MyuAzJ6ed","userName":"aleksandretsikla_MaPqRk","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"59fc6399-6eb1-4dfe-b13e-436c85684d73","buildIdentifier":"1","error":"[{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"120.0\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-validateUniqueOffersAcrossPages\":\"Duplicate offer found: 140.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Edge\",\"browserVersion\":\"latest\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-offerLocationTest\":\"Invalid element state [a[href='\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/']]: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\\r Screenshot: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.png\\r Page source: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.html\\r Timeout: 4 s.\\r Caused by: ElementNotInteractableException: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Firefox\",\"browserVersion\":\"latest\"}]","testhub_uuid":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"DESKTOP-H123LTK","measures":{"sdk:driver:quit":26.03,"sdk:testhub":3486.814499974251,"sdk:automate:session-name":91.32,"sdk:driver:post-initialization":0.79,"sdk:hook":2.26,"sdk:automate:idle-timeout":869.34,"sdk:automate:hub-management":3794.6639000177383,"sdk:driver:pre-initialization":1.81,"sdk:automate:session-status":106.62,"sdk:setup":25045.43230009079,"sdk:pre-test":9.099200963973999,"sdk:o11y:sync":94.2,"sdk:automate:session-annotation":100.89},"productUsage":{"testObservability":{"buildHashedId":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"10_Jan_144_DESKTOP_H123LTK_OgVG","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"browserVersion":"120.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"osVersion":"10","browser":"Chrome","os":"Windows","device":null,"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Edge"},"osVersion":"11","browser":"Edge","os":"Windows","device":null,"platformString":"Windows, 11, Edge, latest","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Firefox"},"osVersion":"11","browser":"Firefox","os":"Windows","device":null,"platformString":"Windows, 11, Firefox, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"selenide-testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"bstack-demo","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":5,"ret-org.openqa.selenium.remote.RemoteWebDriver":1212,"retransformClasses":1212,"parseDependencies":25},"userFramework":"selenide-testng","detectedDependencies":"selenide, testng","referrer":"selenide-testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_selenide-testng","detectedFramework":"selenide-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+01:46:39.617 [validateUniqueOffersAcrossPages@1] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+01:46:39.898 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:40.233 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:40.303 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+01:46:40.304 [bannedUserLoginTest@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:46:40.304 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:40.304 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:40.304 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:40.326 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:40.326 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:40.327 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:40.328 [Forwarding quit on session 3bd98dadae3583b8eb0f908ef56409e5d8aed5a0 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:436)
+	at com.browserstack.config.TestNgCurrentRemoteWebdriver.a(Unknown Source)
+	at com.browserstack.config.TestNgCurrentRemoteWebdriver.a(Unknown Source)
+	at com.browserstack.config.TestNgCurrentRemoteWebdriver.quitWebDriver(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:895)
+	at org.testng.TestRunner.afterRun(TestRunner.java:859)
+	at org.testng.TestRunner.run(TestRunner.java:590)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+01:46:41.182 [validateUniqueOffersAcrossPages@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.195 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.196 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.196 [bannedUserLoginTest@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+01:46:41.196 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.196 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.485 [bannedUserLoginTest@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:46:41.485 [bannedUserLoginTest@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 52
+01:46:41.485 [bannedUserLoginTest@1] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@5f59f5f8
+01:46:41.486 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.486 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.486 [bannedUserLoginTest@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+01:46:41.486 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.487 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.487 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.487 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:41.488 [bannedUserLoginTest@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:46:44.906 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:44.907 [bannedUserLoginTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:46:44.907 [bannedUserLoginTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:46:44.954 [bannedUserLoginTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:44.954 [bannedUserLoginTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:44.957 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:44.957 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:44.957 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:44.957 [bannedUserLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:44.963 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:45.042 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:45.042 [bannedUserLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:45.511 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:45.511 [validateUniqueOffersAcrossPages@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.swoop.OfferTests 
+01:46:45.512 [validateUniqueOffersAcrossPages@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\swoop\OfferTests
+01:46:45.557 [validateUniqueOffersAcrossPages@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:45.557 [validateUniqueOffersAcrossPages@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\swoop\OfferTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:45.560 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:45.560 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:45.560 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:45.560 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:45.567 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:45.645 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:45.646 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:48.493 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+01:46:48.493 [validateUniqueOffersAcrossPages@2] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+01:46:48.498 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"sjdaPCd9JH3MyuAzJ6ed","userName":"aleksandretsikla_MaPqRk","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"59fc6399-6eb1-4dfe-b13e-436c85684d73","buildIdentifier":"1","error":"[{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"120.0\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-validateUniqueOffersAcrossPages\":\"Duplicate offer found: 140.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Edge\",\"browserVersion\":\"latest\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-validateUniqueOffersAcrossPages\":\"Invalid element state [a[href='\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/']]: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\\r Screenshot: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459202958.4.png\\r Page source: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459202958.4.html\\r Timeout: 4 s.\\r Caused by: ElementNotInteractableException: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\",\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-offerLocationTest\":\"Invalid element state [a[href='\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/']]: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\\r Screenshot: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.png\\r Page source: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.html\\r Timeout: 4 s.\\r Caused by: ElementNotInteractableException: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Firefox\",\"browserVersion\":\"latest\"}]","testhub_uuid":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"DESKTOP-H123LTK","measures":{"sdk:driver:quit":28.77,"sdk:testhub":3486.814499974251,"sdk:automate:session-name":92.36,"sdk:driver:post-initialization":0.66,"sdk:hook":2.21,"sdk:automate:idle-timeout":825.9,"sdk:automate:hub-management":3794.6639000177383,"sdk:driver:pre-initialization":1.83,"sdk:automate:session-status":108.7,"sdk:setup":25045.43230009079,"sdk:pre-test":9.099200963973999,"sdk:o11y:sync":86.28,"sdk:automate:session-annotation":98.64},"productUsage":{"testObservability":{"buildHashedId":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"10_Jan_144_DESKTOP_H123LTK_OgVG","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"browserVersion":"120.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"osVersion":"10","browser":"Chrome","os":"Windows","device":null,"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Edge"},"osVersion":"11","browser":"Edge","os":"Windows","device":null,"platformString":"Windows, 11, Edge, latest","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Firefox"},"osVersion":"11","browser":"Firefox","os":"Windows","device":null,"platformString":"Windows, 11, Firefox, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"selenide-testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"bstack-demo","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":5,"ret-org.openqa.selenium.remote.RemoteWebDriver":1212,"retransformClasses":1212,"parseDependencies":25},"userFramework":"selenide-testng","detectedDependencies":"selenide, testng","referrer":"selenide-testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_selenide-testng","detectedFramework":"selenide-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+01:46:48.729 [validateUniqueOffersAcrossPages@2] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+01:46:49.004 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:49.304 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:49.382 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:49.382 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:49.382 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:49.909 [logOutTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:49.910 [logOutTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:46:49.910 [logOutTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:46:49.954 [logOutTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:49.954 [logOutTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:49.956 [logOutTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:49.956 [logOutTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:49.956 [logOutTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:49.956 [logOutTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:49.962 [logOutTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.038 [logOutTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.039 [logOutTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.301 [validateUniqueOffersAcrossPages@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.316 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.316 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.316 [bannedUserLoginTest@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+01:46:50.317 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.317 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.620 [bannedUserLoginTest@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:46:50.620 [bannedUserLoginTest@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 53
+01:46:50.620 [bannedUserLoginTest@2] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@6e682e77
+01:46:50.621 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.621 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.621 [bannedUserLoginTest@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+01:46:50.621 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.622 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.622 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.622 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.623 [bannedUserLoginTest@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:46:50.903 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+01:46:50.904 [bannedUserLoginTest@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:46:50.904 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:50.904 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:50.905 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:50.910 [Forwarding setTimeout on session c06d43edce70fa99ee9cb582329b19846dfc29d3 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:1006)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.setLoadTimeout(WebDriverFactory.java:85)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:64)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:68)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:101)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:44)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:181)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:177)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:164)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:145)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:99)
+	at com.codeborne.selenide.StaticDriver.getAndCheckWebDriver(StaticDriver.java:41)
+	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:183)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:67)
+	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:94)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:93)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:65)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:29)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:50)
+	at ge.tbc.testautomation.steps.saucedemo.LoginSteps.openLoginPage(LoginSteps.java:20)
+	at ge.tbc.testautomation.saucedemo.LoginTests.bannedUserLoginTest(LoginTests.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+01:46:53.228 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:53.228 [successfulLoginTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:46:53.228 [successfulLoginTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:46:53.271 [successfulLoginTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:53.271 [successfulLoginTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:53.274 [successfulLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:53.274 [successfulLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:53.274 [successfulLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:53.274 [successfulLoginTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:53.281 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:53.360 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:53.360 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:53.646 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:53.964 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:54.100 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:54.100 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:54.101 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:54.961 [successfulLoginTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:56.169 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:56.169 [bannedUserLoginTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:46:56.169 [bannedUserLoginTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:46:56.214 [bannedUserLoginTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:46:56.214 [bannedUserLoginTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:46:56.216 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:56.216 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:56.216 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:46:56.216 [bannedUserLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:46:56.223 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:56.303 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:46:56.304 [bannedUserLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:02.190 [logOutTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:02.190 [logOutTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:47:02.190 [logOutTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:47:02.236 [logOutTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:47:02.236 [logOutTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:47:02.237 [logOutTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:02.237 [logOutTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:02.237 [logOutTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:02.237 [logOutTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:02.244 [logOutTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:02.323 [logOutTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:02.323 [logOutTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:06.229 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+01:47:06.229 [bannedUserLoginTest@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:47:06.229 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:06.229 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:06.230 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:06.234 [Forwarding setCurrentWindowSize on session 483f6df8a0a31b8fd48ca6084bc1b7728fc185b6 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.setSize(RemoteWebDriver.java:1039)
+	at com.codeborne.selenide.webdriver.BrowserResizer.adjustBrowserSize(BrowserResizer.java:43)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:61)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:68)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:101)
+	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:44)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:181)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:177)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:164)
+	at com.codeborne.selenide.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:145)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:99)
+	at com.codeborne.selenide.StaticDriver.getAndCheckWebDriver(StaticDriver.java:41)
+	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:183)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:67)
+	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:94)
+	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:123)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:93)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:65)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:29)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:50)
+	at ge.tbc.testautomation.steps.saucedemo.LoginSteps.openLoginPage(LoginSteps.java:20)
+	at ge.tbc.testautomation.saucedemo.LoginTests.bannedUserLoginTest(LoginTests.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+01:47:06.278 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:06.278 [successfulLoginTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:47:06.278 [successfulLoginTest@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:47:06.319 [successfulLoginTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:47:06.319 [successfulLoginTest@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:47:06.321 [successfulLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:06.321 [successfulLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:06.321 [successfulLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:06.321 [successfulLoginTest@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:06.327 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:06.407 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:06.408 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:06.703 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:07.024 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:07.109 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:07.110 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:07.111 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:08.040 [successfulLoginTest@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:13.891 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:13.892 [bannedUserLoginTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:47:13.892 [bannedUserLoginTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:47:13.938 [bannedUserLoginTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:47:13.938 [bannedUserLoginTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:47:13.940 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:13.941 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:13.941 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:13.941 [bannedUserLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:13.947 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:14.029 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:14.031 [bannedUserLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:19.308 [logOutTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:19.308 [logOutTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:47:19.308 [logOutTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:47:19.348 [logOutTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:47:19.348 [logOutTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:47:19.351 [logOutTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:19.351 [logOutTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:19.351 [logOutTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:19.351 [logOutTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:19.357 [logOutTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:19.435 [logOutTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:19.435 [logOutTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:23.420 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:23.420 [successfulLoginTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: ge.tbc.testautomation.saucedemo.LoginTests 
+01:47:23.420 [successfulLoginTest@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, TestClass :: ge\tbc\testautomation\saucedemo\LoginTests
+01:47:23.467 [successfulLoginTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, fileSeparator :: \, AbsolutePath :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2, File.Separator :: \
+01:47:23.467 [successfulLoginTest@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Project2\src\test\java\ge\tbc\testautomation\saucedemo\LoginTests.java, Absolute Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\.., Normalized Path :: C:\Users\aleko\Documents\TBC-ITAcademy\Project 2 
+01:47:23.470 [successfulLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:23.470 [successfulLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:23.470 [successfulLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:47:23.470 [successfulLoginTest@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+01:47:23.477 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:23.576 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:23.577 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:23.836 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:24.155 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:24.235 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:24.236 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:24.237 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.260 [successfulLoginTest@2] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.266 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.271 [Dead threads watchdog] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.272 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+01:47:25.272 [Dead threads watchdog] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.272 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+01:47:25.274 [Thread-8] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.274 [Dead threads watchdog] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.274 [Thread-8] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:25.277 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+01:47:25.277 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp/stop with request size 65
+01:47:25.277 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp/stop with request size 65
+01:47:26.002 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+01:47:26.002 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+01:47:26.002 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+01:47:26.002 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability Stop request failed. Retrying.. Exception: com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+01:47:26.470 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+01:47:26.471 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp/stop with request size 65
+01:47:26.471 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp/stop with request size 65
+01:47:26.625 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+01:47:26.625 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+01:47:26.625 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+01:47:26.625 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-09T21:47:26.625141600Z][ TESTHUB ] Exception in stop build request : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+
+01:47:27.151 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+01:47:27.152 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:29.329 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:29.336 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+01:47:29.336 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+01:47:29.342 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"sjdaPCd9JH3MyuAzJ6ed","userName":"aleksandretsikla_MaPqRk","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"59fc6399-6eb1-4dfe-b13e-436c85684d73","buildIdentifier":"1","error":"[{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"120.0\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-validateUniqueOffersAcrossPages\":\"Duplicate offer found: 140.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Edge\",\"browserVersion\":\"latest\"},{\"tests\":{\"ge.tbc.testautomation.swoop.OfferTests-validateUniqueOffersAcrossPages\":\"Invalid element state [a[href='\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/']]: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\\r Screenshot: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459202958.4.png\\r Page source: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459202958.4.html\\r Timeout: 4 s.\\r Caused by: ElementNotInteractableException: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\",\"ge.tbc.testautomation.swoop.OfferTests-numberOfGuestsTest\":\"Offer does not match filter criteria: 24.00\\u20BE\",\"ge.tbc.testautomation.swoop.OfferTests-offerLocationTest\":\"Invalid element state [a[href='\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/']]: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\\r Screenshot: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.png\\r Page source: file:\\\/C:\\\/Users\\\/aleko\\\/Documents\\\/TBC-ITAcademy\\\/Project%202\\\/Project2\\\/build\\\/reports\\\/tests\\\/1736459130248.0.html\\r Timeout: 4 s.\\r Caused by: ElementNotInteractableException: Element <a id=\\\"headlessui-menu-item-:r4:\\\" class=\\\"hover:underline underline-offset-6\\\" href=\\\"\\\/category\\\/1951\\\/dasveneba\\\/kaxeti\\\/\\\"> could not be scrolled into view\",\"ge.tbc.testautomation.swoop.OfferTests-searchTest\":\"The following asserts failed: \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false], \\tThe subtitle text does not contain the keyword: ბარი expected [true] but found [false]\"},\"os\":\"Windows\",\"osVersion\":\"11\",\"browser\":\"Firefox\",\"browserVersion\":\"latest\"}]","testhub_uuid":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"DESKTOP-H123LTK","measures":{"sdk:driver:quit":32.53,"sdk:testhub":3486.814499974251,"sdk:post-test":0.06389999389648438,"sdk:automate:session-name":138.24,"sdk:driver:post-initialization":0.5,"sdk:o11y:print-buildlink":1877.5544999837875,"sdk:hook":2.06,"sdk:automate:idle-timeout":1087.1,"sdk:automate:local":190911.77640092373,"sdk:automate:hub-management":3794.6639000177383,"sdk:driver:pre-initialization":1.81,"sdk:automate:session-status":158.79,"sdk:setup":25045.43230009079,"sdk:pre-test":9.099200963973999,"sdk:o11y:sync":81.99,"sdk:automate:session-annotation":93.63},"productUsage":{"testObservability":{"buildHashedId":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"10_Jan_144_DESKTOP_H123LTK_OgVG","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"browserVersion":"120.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"osVersion":"10","browser":"Chrome","os":"Windows","device":null,"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Edge"},"osVersion":"11","browser":"Edge","os":"Windows","device":null,"platformString":"Windows, 11, Edge, latest","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Firefox"},"osVersion":"11","browser":"Firefox","os":"Windows","device":null,"platformString":"Windows, 11, Firefox, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"selenide-testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"bstack-demo","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":5,"ret-org.openqa.selenium.remote.RemoteWebDriver":1212,"retransformClasses":1212,"parseDependencies":25},"userFramework":"selenide-testng","detectedDependencies":"selenide, testng","referrer":"selenide-testng-javaagent\/1.29.3","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_selenide-testng","detectedFramework":"selenide-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+01:47:29.685 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+01:47:30.641 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:30.641 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+01:47:31.373 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.375 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.375 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.375 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.376 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.377 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.377 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.378 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.378 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\aleko\Documents\TBC-ITAcademy\Project 2\Project2\logs\key-metrics.json
+01:47:31.385 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 646
+01:47:32.215 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+01:47:32.216 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-01-09T21:47:31.000384 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":3794.6639000177383,\"eventName\":\"sdk:automate:hub-management\",\"startTime\":5.557371939494E8,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}]}","user_data":"aleksandretsikla_MaPqRk","testhub_uuid":"ggeyvcqzcjcbnwolsunhs9hi1ocq1zvytvfdekqp","host_info":"{\"hostname\":\"DESKTOP-H123LTK\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 11\"}"}} {Content-Type=application/json}

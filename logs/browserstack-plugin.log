@@ -1,0 +1,19 @@
+20:41:11.184 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+20:41:11.192 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+20:42:42.158 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Integrate source: selenide-testng:intellij:v1.1.6
+20:42:42.158 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+20:42:42.234 [ApplicationImpl pooled thread 212] INFO  c.b.l.BrowserStackRunExtension - maven
+20:42:42.235 [ApplicationImpl pooled thread 212] INFO  com.browserstack.utils.Helpers - null
+20:43:06.229 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
+01:43:18.376 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+01:43:18.377 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - C:/Users/aleko/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.3/browserstack-java-sdk-1.29.3.jar
+01:43:18.377 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+01:43:18.387 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+01:43:18.388 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - C:/Users/aleko/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.3/browserstack-java-sdk-1.29.3.jar
+01:43:18.388 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+01:44:07.951 [ApplicationImpl pooled thread 269] INFO  c.b.l.BrowserStackRunExtension - testng
+01:44:07.951 [ApplicationImpl pooled thread 269] INFO  com.browserstack.utils.Helpers - true
+01:44:07.951 [ApplicationImpl pooled thread 269] INFO  com.browserstack.utils.Helpers - C:/Users/aleko/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.3/browserstack-java-sdk-1.29.3.jar
+01:44:07.953 [ApplicationImpl pooled thread 269] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/aleko/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.3/browserstack-java-sdk-1.29.3.jar
+01:44:07.953 [ApplicationImpl pooled thread 269] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+01:44:07.953 [ApplicationImpl pooled thread 269] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6

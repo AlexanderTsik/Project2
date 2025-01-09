@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
@@ -59,6 +56,12 @@
             <artifactId>allure-selenide</artifactId>
             <version>2.27.0</version>
         </dependency>
+        <dependency>
+      <groupId>com.browserstack</groupId>
+      <artifactId>browserstack-java-sdk</artifactId>
+      <version>LATEST</version>
+      <scope>compile</scope>
+    </dependency>
     </dependencies>
 
     <build>
@@ -78,11 +81,22 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20</version>
                 <configuration>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar"
-                    </argLine>
+                    <argLine>-javaagent:"${com.browserstack:browserstack-java-sdk:jar}"
+-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar"</argLine>
                 </configuration>
             </plugin>
+            <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <id>getClasspathFilenames</id>
+            <goals>
+              <goal>properties</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
         </plugins>
     </build>
 
