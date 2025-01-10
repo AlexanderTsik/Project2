@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="ge.tbc.testautomation.listeners.CustomReportListener" />
+        <listener class-name="ge.tbc.testautomation.listeners.CustomSuiteListener" />
+        <listener class-name="ge.tbc.testautomation.listeners.CustomTestListener" />
+    </listeners>
+
+    <test name="Swoop Regression Tests">
+        <groups>
+            <run>
+                <include name="SwoopRegression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.testautomation.swoop.OfferTests" />
+        </classes>
+    </test>
+
+    <test name="SauceDemo Login Tests">
+        <groups>
+            <run>
+                <include name="SauceDemoLogin" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.testautomation.saucedemo.LoginTests" />
+        </classes>
+    </test>
+
+</suite>
