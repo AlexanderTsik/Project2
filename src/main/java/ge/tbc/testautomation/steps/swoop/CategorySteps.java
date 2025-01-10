@@ -57,7 +57,7 @@ public class CategorySteps {
     @Step("Navigate to the previous page of offers")
     public CategorySteps goToPreviousPage() {
         searchPage.previousButton.shouldBe(Condition.visible).click();
-        System.out.println("back to the previous page");
+
 
         return this;
     }

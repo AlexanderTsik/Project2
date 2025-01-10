@@ -4,7 +4,7 @@ import java.util.List;
 
 
 public class Constants {
-    public static final String FIXED_STRING = "totally wasn't just here for the conflict";
+
     public final static String SAUCE_BASE_URL = "https://saucedemo.com";
     public final static String SWOOP_BASE_URL = "https://swoop.ge";
 

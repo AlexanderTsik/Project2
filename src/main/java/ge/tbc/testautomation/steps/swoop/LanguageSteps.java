@@ -41,7 +41,7 @@ public class LanguageSteps {
     @Step("Select English language")
     public LanguageSteps selectEnglishLanguage() {
         page.englishButton.click();
-        System.out.println("change lagunge engrish");
+
 
         return this;
     }
