@@ -2,7 +2,7 @@ target
 .idea
 build
 *.iml
-
+logs
 # Ignore everything in allure-results
 allure-results/*
 

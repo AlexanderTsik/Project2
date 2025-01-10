@@ -37,6 +37,7 @@ public class LoginSteps {
     @Step("Click the login button")
     public LoginSteps clickLogin() {
         loginPage.loginButton.click();
+        System.out.println("logging in...");
         return this;
     }
 

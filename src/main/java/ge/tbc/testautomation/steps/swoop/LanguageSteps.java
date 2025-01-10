@@ -41,6 +41,8 @@ public class LanguageSteps {
     @Step("Select English language")
     public LanguageSteps selectEnglishLanguage() {
         page.englishButton.click();
+        System.out.println("Changing to english");
+
         return this;
     }
     @Step("Validate navigation labels for Georgian language")
