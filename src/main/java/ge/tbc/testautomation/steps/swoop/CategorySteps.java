@@ -58,6 +58,7 @@ public class CategorySteps {
     public CategorySteps goToPreviousPage() {
         searchPage.previousButton.shouldBe(Condition.visible).click();
 
+
         return this;
     }
 
