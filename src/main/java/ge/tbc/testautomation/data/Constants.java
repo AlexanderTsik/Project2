@@ -4,6 +4,8 @@ import java.util.List;
 
 
 public class Constants {
+    public final static String ALLY_TESTING_URL = "https://google.com";
+
     public final static String SAUCE_BASE_URL = "https://saucedemo.com";
     public final static String SWOOP_BASE_URL = "https://swoop.ge";
 

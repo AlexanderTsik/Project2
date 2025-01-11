@@ -11,6 +11,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+
+        <!-- Selenium WebDriver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.16.1</version>
+        </dependency>
+
+
+
+
+
+        <dependency>
+            <groupId>com.deque.html.axe-core</groupId>
+            <artifactId>selenium</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
         <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
         <dependency>
@@ -64,6 +83,16 @@
     </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>deque-oss</id>
+            <url>https://oss.sonatype.org/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>deque</id>
+            <url>https://d2lnr4fshq4cxd.cloudfront.net/maven-repository</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>

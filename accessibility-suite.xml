@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AccessibilityTestSuite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="ge.tbc.testautomation.listeners.CustomReportListener" />
+        <listener class-name="ge.tbc.testautomation.listeners.CustomSuiteListener" />
+        <listener class-name="ge.tbc.testautomation.listeners.CustomTestListener" />
+    </listeners>
+
+    <test name="Accessibility Tests">
+        <groups>
+            <run>
+                <include name="accessibility" />
+            </run>
+        </groups>
+        <classes>
+            <class name="AllyTests.AccessibilityTest" />
+        </classes>
+    </test>
+</suite>
